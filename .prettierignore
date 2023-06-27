@@ -13,14 +13,12 @@
 /.pnp
 .pnp.js
 
-# Environment
-.env*
-!.env.example
-
 # Generated
 /build
+/public/assets
 
 # IDE and Editors
+/.vscode
 /nbproject
 /packages/api/etc
 _notes
@@ -40,9 +38,8 @@ _notes
 # Npm & Yarn
 .npm
 .yarn-integrity
-last-package.json
 npm-debug.log*
-package-lock.json
+package-log.json
 yarn-debug.log*
 yarn-error.log*
 yarn.lock*
